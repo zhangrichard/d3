@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>sz</title>
+	<link rel="stylesheet" href="./base.css">
+	<link rel="stylesheet" href="./style.css">
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<style>
+section.bar {
+    display: inline-block;
+    width: 20px;
+    height: 75px;   /* We'll override this later */
+    background-color: teal;
+    margin-right: 2px;
+
+}
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<section class="bar"></section>
+
+<div class="container">
+	<h2>D3 graphic</h2>
+	<section id="chart">
+<svg width = '600' height = '400' style ='background: #93A1A1'>
+
+</svg>
+	</section>
+	
+</div>
+<div class="chart"></div>
+<script src="script.js"></script>
+
+	
+</body>
+</html>
